@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<ArrayOfElectricalElement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ElectricalElement>
+    <Id>1</Id>
+    <Name>Transformer</Name>
+    <Type>Type1</Type>
+    <Location>Location1</Location>
+    <VoltageLevel>srednji napon</VoltageLevel>
+  </ElectricalElement>
+  <ElectricalElement>
+    <Id>1</Id>
+    <Name>Transformer</Name>
+    <Type>Type1</Type>
+    <Location>Location1</Location>
+    <VoltageLevel>srednji napon</VoltageLevel>
+  </ElectricalElement>
+  <ElectricalElement>
+    <Id>1</Id>
+    <Name>Transformer</Name>
+    <Type>Type1</Type>
+    <Location>Location1</Location>
+    <VoltageLevel>srednji napon</VoltageLevel>
+  </ElectricalElement>
+</ArrayOfElectricalElement>

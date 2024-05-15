@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EvidencijaKvarova.Klase
+namespace EvidencijaKvarova.Models
 {
     public class Action
     {

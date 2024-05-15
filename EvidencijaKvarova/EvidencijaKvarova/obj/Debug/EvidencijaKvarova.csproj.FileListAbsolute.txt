@@ -1,0 +1,7 @@
+C:\Users\Tomas\Desktop\ERS2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\EvidencijaKvarova.exe.config
+C:\Users\Tomas\Desktop\ERS2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\EvidencijaKvarova.exe
+C:\Users\Tomas\Desktop\ERS2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\EvidencijaKvarova.pdb
+C:\Users\Tomas\Desktop\ERS2\EvidencijaKvarova\EvidencijaKvarova\obj\Debug\EvidencijaKvarova.csproj.AssemblyReference.cache
+C:\Users\Tomas\Desktop\ERS2\EvidencijaKvarova\EvidencijaKvarova\obj\Debug\EvidencijaKvarova.csproj.CoreCompileInputs.cache
+C:\Users\Tomas\Desktop\ERS2\EvidencijaKvarova\EvidencijaKvarova\obj\Debug\EvidencijaKvarova.exe
+C:\Users\Tomas\Desktop\ERS2\EvidencijaKvarova\EvidencijaKvarova\obj\Debug\EvidencijaKvarova.pdb

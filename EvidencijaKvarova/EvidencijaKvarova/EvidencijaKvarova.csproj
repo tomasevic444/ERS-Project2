@@ -43,12 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Config\ConfigurationService.cs" />
+    <Compile Include="Interfaces\IConfigurationService.cs" />
+    <Compile Include="Interfaces\IElementRepository.cs" />
     <Compile Include="Interfaces\IFaultRepository.cs" />
     <Compile Include="Models\Action.cs" />
     <Compile Include="Models\ElectricalElement.cs" />
     <Compile Include="Models\Fault.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\XmlElementRepository.cs" />
+    <Compile Include="Repositories\XmlFaultRepository.cs" />
     <Compile Include="Services\FaultService.cs" />
   </ItemGroup>
   <ItemGroup>

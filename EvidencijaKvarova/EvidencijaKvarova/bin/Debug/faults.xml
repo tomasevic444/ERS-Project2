@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<ArrayOfFault xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Fault>
+    <Id>20240515202825_28e4a94c-f0f8-4132-8d9b-d2d2204bd640</Id>
+    <ShortDescription>Zapalio se</ShortDescription>
+    <DetailedDescription>Motor</DetailedDescription>
+    <ElementId>1</ElementId>
+    <CreationTime>2024-05-15T20:28:25.1602459+02:00</CreationTime>
+    <Actions>
+      <Action>
+        <Time>2024-05-15T20:28:25.1582187+02:00</Time>
+        <Description>Initial inspection</Description>
+      </Action>
+    </Actions>
+  </Fault>
+  <Fault>
+    <Id>20240515204539_2</Id>
+    <ShortDescription>nesto</ShortDescription>
+    <DetailedDescription>Nesto nesto nesto</DetailedDescription>
+    <ElementId>1</ElementId>
+    <CreationTime>2024-05-15T20:45:39.1940313+02:00</CreationTime>
+    <Status>Nepotvrđen</Status>
+    <Actions>
+      <Action>
+        <Time>2024-05-15T20:45:39.1781624+02:00</Time>
+        <Description>Initial inspection</Description>
+      </Action>
+    </Actions>
+  </Fault>
+</ArrayOfFault>
