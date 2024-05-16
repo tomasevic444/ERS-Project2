@@ -30,8 +30,19 @@ namespace EvidencijaKvarova
             FaultService faultService = new FaultService(faultRepository, elementRepository, configurationService);
 
             // Sample electrical element
-            ElectricalElement sampleElement = new ElectricalElement { Id = "1", Name = "Transformer", Type = "Type1", Location = "Location1" };
-            elementRepository.AddElement(sampleElement);
+            //ElectricalElement sampleElement1 = new ElectricalElement { Id = "1", Name = "Transistor", Type = "Component", Location = "Novi Sad, Latitude: 45.267136, Longitude: 19.833549" };
+            //ElectricalElement sampleElement2 = new ElectricalElement { Id = "2", Name = "Batteries", Type = "Component", Location = "Novi Sad, Latitude: 45.267136, Longitude: 19.833549" };
+            //ElectricalElement sampleElement3 = new ElectricalElement { Id = "3", Name = "Resistor", Type = "Component", Location = "Novi Sad, Latitude: 45.267136, Longitude: 19.833549" };
+            //ElectricalElement sampleElement4 = new ElectricalElement { Id = "4", Name = "Inductor", Type = "Component", Location = "Novi Sad, Latitude: 45.267136, Longitude: 19.833549" };
+            //ElectricalElement sampleElement5 = new ElectricalElement { Id = "5", Name = "Capacitor", Type = "Component", Location = "Novi Sad, Latitude: 45.267136, Longitude: 19.833549" };
+            //ElectricalElement sampleElement6 = new ElectricalElement { Id = "6", Name = "Switch", Type = "Component", Location = "Novi Sad, Latitude: 45.267136, Longitude: 19.833549" };
+
+            //elementRepository.AddElement(sampleElement1);
+            //elementRepository.AddElement(sampleElement2);
+            //elementRepository.AddElement(sampleElement3);
+            //elementRepository.AddElement(sampleElement4);
+            //elementRepository.AddElement(sampleElement5);
+            //elementRepository.AddElement(sampleElement6);
 
             while (true)
             {
@@ -39,6 +50,7 @@ namespace EvidencijaKvarova
                 Console.WriteLine("1. Add a new fault");
                 Console.WriteLine("2. Add an action to an existing fault");
                 Console.WriteLine("3. List all electrical elements");
+                Console.WriteLine("4. Retrieve faults within a date range");
                 Console.WriteLine("6. Exit");
                 Console.Write("Select an option: ");
                 var option = Console.ReadLine();
@@ -54,8 +66,9 @@ namespace EvidencijaKvarova
                     case "3":
                         ListAllElements(elementRepository);
                         break;
-                    case "6":
-                        return;
+                    case "4":
+                        RetrieveFaults(faultService);
+                        break;
                     default:
                         Console.WriteLine("Invalid option. Please try again.");
                         break;
@@ -117,6 +130,27 @@ namespace EvidencijaKvarova
                 Console.WriteLine($"Element ID: {element.Id}, Name: {element.Name}, Type: {element.Type}, Location: {element.Location}");
             }
             Console.WriteLine();
+        }
+        static void RetrieveFaults(FaultService faultService)
+        {
+            Console.Write("Enter start date (yyyy-MM-dd): ");
+            DateTime fromDate = DateTime.Parse(Console.ReadLine());
+            Console.Write("Enter end date (yyyy-MM-dd): ");
+            DateTime toDate = DateTime.Parse(Console.ReadLine());
+
+            var faults = faultService.GetFaults(fromDate, toDate);
+            if (faults.Count == 0)
+            {
+                Console.WriteLine("No faults found in the specified date range.\n");
+            }
+            else
+            {
+                foreach (var fault in faults)
+                {
+                    Console.WriteLine($"Fault ID: {fault.Id}, Description: {fault.ShortDescription}, Status: {fault.Status}, Created: {fault.CreationTime}");
+                }
+                Console.WriteLine();
+            }
         }
 
     }

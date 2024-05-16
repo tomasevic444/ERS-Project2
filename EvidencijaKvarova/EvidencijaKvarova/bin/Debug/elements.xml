@@ -2,23 +2,44 @@
 <ArrayOfElectricalElement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ElectricalElement>
     <Id>1</Id>
-    <Name>Transformer</Name>
-    <Type>Type1</Type>
-    <Location>Location1</Location>
+    <Name>Transistor</Name>
+    <Type>Component</Type>
+    <Location>Novi Sad, Latitude: 45.267136, Longitude: 19.833549</Location>
     <VoltageLevel>srednji napon</VoltageLevel>
   </ElectricalElement>
   <ElectricalElement>
-    <Id>1</Id>
-    <Name>Transformer</Name>
-    <Type>Type1</Type>
-    <Location>Location1</Location>
+    <Id>2</Id>
+    <Name>Batteries</Name>
+    <Type>Component</Type>
+    <Location>Novi Sad, Latitude: 45.267136, Longitude: 19.833549</Location>
     <VoltageLevel>srednji napon</VoltageLevel>
   </ElectricalElement>
   <ElectricalElement>
-    <Id>1</Id>
-    <Name>Transformer</Name>
-    <Type>Type1</Type>
-    <Location>Location1</Location>
+    <Id>3</Id>
+    <Name>Resistor</Name>
+    <Type>Component</Type>
+    <Location>Novi Sad, Latitude: 45.267136, Longitude: 19.833549</Location>
+    <VoltageLevel>srednji napon</VoltageLevel>
+  </ElectricalElement>
+  <ElectricalElement>
+    <Id>4</Id>
+    <Name>Inductor</Name>
+    <Type>Component</Type>
+    <Location>Novi Sad, Latitude: 45.267136, Longitude: 19.833549</Location>
+    <VoltageLevel>srednji napon</VoltageLevel>
+  </ElectricalElement>
+  <ElectricalElement>
+    <Id>5</Id>
+    <Name>Capacitor</Name>
+    <Type>Component</Type>
+    <Location>Novi Sad, Latitude: 45.267136, Longitude: 19.833549</Location>
+    <VoltageLevel>srednji napon</VoltageLevel>
+  </ElectricalElement>
+  <ElectricalElement>
+    <Id>6</Id>
+    <Name>Switch</Name>
+    <Type>Component</Type>
+    <Location>Novi Sad, Latitude: 45.267136, Longitude: 19.833549</Location>
     <VoltageLevel>srednji napon</VoltageLevel>
   </ElectricalElement>
 </ArrayOfElectricalElement>
