@@ -48,7 +48,7 @@ namespace EvidencijaKvarova.Repositories
             }
         }
 
-        private List<Fault> GetAllFaults()
+        public List<Fault> GetAllFaults()
         {
             if (!File.Exists(_filePath))
             {
@@ -70,5 +70,8 @@ namespace EvidencijaKvarova.Repositories
                 serializer.Serialize(stream, faults);
             }
         }
+
+
+
     }
 }

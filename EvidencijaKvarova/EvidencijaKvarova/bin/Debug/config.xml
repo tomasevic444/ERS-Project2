@@ -1,0 +1,5 @@
+﻿<Configuration>
+	<PriorityIncrementForRepair>1</PriorityIncrementForRepair>
+	<PriorityIncrementForTesting>0.5</PriorityIncrementForTesting>
+	<PriorityIncrementForHighVoltage>1</PriorityIncrementForHighVoltage>
+</Configuration>

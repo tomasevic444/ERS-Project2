@@ -53,4 +53,21 @@
       </Action>
     </Actions>
   </Fault>
+  <Fault>
+    <Id>20240517135228_1</Id>
+    <ShortDescription>new description idk</ShortDescription>
+    <ElementId>5</ElementId>
+    <CreationTime>2024-05-17T13:52:28.1523369+02:00</CreationTime>
+    <Status>Testiranje</Status>
+    <Actions>
+      <Action>
+        <Time>2024-05-17T13:52:28.1233277+02:00</Time>
+        <Description>Initial inspection</Description>
+      </Action>
+      <Action>
+        <Time>2024-05-17T13:53:06.1086506+02:00</Time>
+        <Description>idk2</Description>
+      </Action>
+    </Actions>
+  </Fault>
 </ArrayOfFault>

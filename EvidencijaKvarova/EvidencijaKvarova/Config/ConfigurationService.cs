@@ -11,56 +11,45 @@ namespace EvidencijaKvarova.Config
 {
     public class ConfigurationService : IConfigurationService
     {
-        private readonly Dictionary<string, double> _configurations;
+        private readonly Configuration _configuration;
 
         public ConfigurationService(string configFilePath)
         {
-            _configurations = LoadConfigurations(configFilePath);
+            if (!File.Exists(configFilePath))
+            {
+                throw new FileNotFoundException("Configuration file not found.", configFilePath);
+            }
+
+            XmlSerializer serializer = new XmlSerializer(typeof(Configuration));
+            using (FileStream fs = new FileStream(configFilePath, FileMode.Open))
+            {
+                _configuration = (Configuration)serializer.Deserialize(fs);
+            }
         }
 
         public double GetPriorityIncrementForRepair()
         {
-            return _configurations["RepairIncrement"];
+            return _configuration.PriorityIncrementForRepair;
         }
 
         public double GetPriorityIncrementForTesting()
         {
-            return _configurations["TestingIncrement"];
+            return _configuration.PriorityIncrementForTesting;
         }
 
         public double GetPriorityIncrementForHighVoltage()
         {
-            return _configurations["HighVoltageIncrement"];
-        }
-
-        private Dictionary<string, double> LoadConfigurations(string filePath)
-        {
-            if (!File.Exists(filePath))
-            {
-                // Default values if configuration file does not exist
-                return new Dictionary<string, double>
-            {
-                { "RepairIncrement", 1.0 },
-                { "TestingIncrement", 0.5 },
-                { "HighVoltageIncrement", 1.0 }
-            };
-            }
-
-            var serializer = new XmlSerializer(typeof(List<Configuration>));
-            using (var stream = new FileStream(filePath, FileMode.Open))
-            {
-                var configurations = (List<Configuration>)serializer.Deserialize(stream);
-                return configurations.ToDictionary(c => c.Key, c => c.Value);
-            }
-        }
-
-        [XmlRoot("Configuration")]
-        public class Configuration
-        {
-            [XmlElement("Key")]
-            public string Key { get; set; }
-            [XmlElement("Value")]
-            public double Value { get; set; }
+            return _configuration.PriorityIncrementForHighVoltage;
         }
     }
+
+    [XmlRoot("Configuration")]
+    public class Configuration
+    {
+        public double PriorityIncrementForRepair { get; set; }
+        public double PriorityIncrementForTesting { get; set; }
+        public double PriorityIncrementForHighVoltage { get; set; }
+    }
+
+
 }

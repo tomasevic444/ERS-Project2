@@ -23,20 +23,20 @@ namespace EvidencijaKvarova.Services
 
         public void CreateFault(Fault fault)
         {
-            fault.Id = GenerateFaultId();
+            fault.Id = GenerateFaultId(fault);
             fault.CreationTime = DateTime.Now;
-            fault.Status = "Nepotvrdjen";  // Default status
+            fault.Status = "Nepotvrđen";
             _faultRepository.AddFault(fault);
         }
 
-        public Fault GetFaultById(string id)
+        public List<Fault> GetFaults(DateTime fromDate, DateTime toDate)
         {
-            return _faultRepository.GetFaultById(id);
+            return _faultRepository.GetFaults(fromDate, toDate);
         }
 
-        public List<Fault> GetFaults(DateTime from, DateTime to)
+        public Fault GetFaultById(string faultId)
         {
-            return _faultRepository.GetFaults(from, to);
+            return _faultRepository.GetFaultById(faultId);
         }
 
         public void UpdateFault(Fault fault)
@@ -47,13 +47,17 @@ namespace EvidencijaKvarova.Services
         public double CalculatePriority(Fault fault)
         {
             double priority = 0;
-            foreach (var action in fault.Actions)
+
+            if (fault.Status == "U popravci")
             {
-                if (fault.Status == "U popravci")
+                foreach (var action in fault.Actions)
                 {
                     priority += _configurationService.GetPriorityIncrementForRepair();
                 }
-                else if (fault.Status == "Testiranje")
+            }
+            else if (fault.Status == "Testiranje")
+            {
+                foreach (var action in fault.Actions)
                 {
                     priority += _configurationService.GetPriorityIncrementForTesting();
                 }
@@ -68,21 +72,38 @@ namespace EvidencijaKvarova.Services
             return priority;
         }
 
-        private string GenerateFaultId()
+        private string GenerateFaultId(Fault fault)
         {
             DateTime now = DateTime.Now;
-            string datePart = now.ToString("yyyyMMddHHmmss");
-            int countForToday = GetFaultCountForToday(now);
-            return $"{datePart}_{countForToday + 1}";
+            int dailyCount = GetDailyFaultCount(now) + 1;
+            return $"{now:yyyyMMddHHmmss}_{dailyCount}";
         }
 
-        private int GetFaultCountForToday(DateTime today)
+        private int GetDailyFaultCount(DateTime date)
         {
-            var startOfDay = today.Date;
-            var endOfDay = startOfDay.AddDays(1).AddTicks(-1);
+            DateTime startOfDay = date.Date;
+            DateTime endOfDay = date.Date.AddDays(1).AddTicks(-1);
             var faultsToday = _faultRepository.GetFaults(startOfDay, endOfDay);
             return faultsToday.Count;
         }
+
+        public void AddActionToFault(string faultId, EvidencijaKvarova.Models.Action action)
+        {
+            var fault = _faultRepository.GetFaultById(faultId);
+            if (fault == null)
+            {
+                throw new Exception("Fault not found.");
+            }
+
+            fault.Actions.Add(action);
+            fault.Status = "U popravci"; // Update status to "U popravci"
+            _faultRepository.UpdateFault(fault);
+        }
+        public List<Fault> GetAllFaults()
+        {
+            return _faultRepository.GetAllFaults();
+        }
+
     }
 }
 

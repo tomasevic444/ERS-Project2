@@ -51,6 +51,7 @@ namespace EvidencijaKvarova
                 Console.WriteLine("2. Add an action to an existing fault");
                 Console.WriteLine("3. List all electrical elements");
                 Console.WriteLine("4. Retrieve faults within a date range");
+                Console.WriteLine("5. Select and update a fault");
                 Console.WriteLine("6. Exit");
                 Console.Write("Select an option: ");
                 var option = Console.ReadLine();
@@ -68,6 +69,9 @@ namespace EvidencijaKvarova
                         break;
                     case "4":
                         RetrieveFaults(faultService);
+                        break;
+                    case "5":
+                        SelectAndUpdateFault(faultService);
                         break;
                     default:
                         Console.WriteLine("Invalid option. Please try again.");
@@ -105,6 +109,17 @@ namespace EvidencijaKvarova
         }
         static void AddActionToFault(FaultService faultService)
         {
+            var faults = faultService.GetAllFaults();
+            if (faults.Count == 0)
+            {
+                Console.WriteLine("No faults found.\n");
+                return;
+            }
+            Console.Write("List of faults\n");
+            foreach (var f in faults)
+            {
+                Console.WriteLine($"Fault ID: {f.Id}, Description: {f.ShortDescription}, Status: {f.Status}, Created: {f.CreationTime}");
+            }
             Console.Write("Enter the fault ID: ");
             string faultId = Console.ReadLine();
             Fault fault = faultService.GetFaultById(faultId);
@@ -151,6 +166,93 @@ namespace EvidencijaKvarova
                 }
                 Console.WriteLine();
             }
+        }
+        static void SelectAndUpdateFault(FaultService faultService)
+        {
+            var faults = faultService.GetAllFaults();
+            if (faults.Count == 0)
+            {
+                Console.WriteLine("No faults found.\n");
+                return;
+            }
+
+            // Display all faults
+            Console.WriteLine("List of faults:\n");
+            foreach (var f in faults)
+            {
+                Console.WriteLine($"Fault ID: {f.Id}, Description: {f.ShortDescription}, Status: {f.Status}, Created: {f.CreationTime}");
+            }
+
+            // Select a fault
+            Console.Write("Enter the fault ID to select: ");
+            string faultId = Console.ReadLine();
+
+            var selectedFault = faultService.GetFaultById(faultId);
+            if (selectedFault == null)
+            {
+                Console.WriteLine("Fault not found.\n");
+                return;
+            }
+
+            // Display fault details
+            Console.WriteLine("Fault details:");
+            Console.WriteLine($"ID: {selectedFault.Id}");
+            Console.WriteLine($"Short Description: {selectedFault.ShortDescription}");
+            Console.WriteLine($"Status: {selectedFault.Status}");
+            Console.WriteLine($"Element ID: {selectedFault.ElementId}");
+            Console.WriteLine($"Creation Time: {selectedFault.CreationTime}");
+            Console.WriteLine("Actions:");
+            foreach (var action in selectedFault.Actions)
+            {
+                Console.WriteLine($"- {action.Time}: {action.Description}");
+            }
+
+            if (selectedFault.Status == "Zatvoreno")
+            {
+                Console.WriteLine("Fault is closed and cannot be updated. Details are read-only.\n");
+            }
+            else
+            {
+                CalculateFaultPriority(faultService, faultId);
+                Console.Write("Do you want to update this fault? (yes/no): ");
+                string response = Console.ReadLine().Trim().ToLower();
+
+                if (response == "yes")
+                {
+                    // Proceed with update
+                    Console.WriteLine("\nUpdate fault details:");
+                    Console.Write("Enter a new short description: ");
+                    selectedFault.ShortDescription = Console.ReadLine();
+
+                    Console.Write("Enter a new status (Nepotvrđen, U popravci, Testiranje, Zatvoreno): ");
+                    selectedFault.Status = Console.ReadLine();
+
+                    faultService.UpdateFault(selectedFault);
+                    Console.WriteLine("Fault updated successfully.\n");
+                }
+                else
+                {
+                    Console.WriteLine("Update cancelled.\n");
+                }
+            }
+        }
+        static void CalculateFaultPriority(FaultService faultService, string faultId)
+        {
+            var fault = faultService.GetFaultById(faultId);
+            if (fault == null)
+            {
+                Console.WriteLine("Fault not found.\n");
+                return;
+            }
+
+            if (fault.Status != "U popravci" && fault.Status != "Testiranje")
+            {
+                Console.WriteLine("Priority calculation is only applicable for faults with status 'U popravci' or 'Testiranje'.\n");
+                return;
+            }
+
+            double priority = faultService.CalculatePriority(fault);
+            Console.WriteLine($"The priority of the fault is: {priority}\n");
         }
 
     }

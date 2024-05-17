@@ -13,5 +13,6 @@ namespace EvidencijaKvarova.Interfaces
         Fault GetFaultById(string id);
         List<Fault> GetFaults(DateTime from, DateTime to);
         void UpdateFault(Fault fault);
+        List<Fault> GetAllFaults();
     }
 }
