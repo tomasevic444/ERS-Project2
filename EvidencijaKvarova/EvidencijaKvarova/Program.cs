@@ -20,6 +20,7 @@ namespace EvidencijaKvarova
             string faultsFilePath = "faults.xml";
             string elementsFilePath = "elements.xml";
             string configFilePath = "config.xml";
+            string excelPath = "faultsExcel.xlsx";
 
             // Repositories
             IFaultRepository faultRepository = new XmlFaultRepository(faultsFilePath);
@@ -52,7 +53,8 @@ namespace EvidencijaKvarova
                 Console.WriteLine("3. List all electrical elements");
                 Console.WriteLine("4. Retrieve faults within a date range");
                 Console.WriteLine("5. Select and update a fault");
-                Console.WriteLine("6. Exit");
+                Console.WriteLine("6. Create Excel document for faults");
+                Console.WriteLine("7. Exit");
                 Console.Write("Select an option: ");
                 var option = Console.ReadLine();
 
@@ -73,6 +75,12 @@ namespace EvidencijaKvarova
                     case "5":
                         SelectAndUpdateFault(faultService);
                         break;
+                    case "6":
+                        faultService.CreateFaultsExcelDocument(excelPath);
+                        Console.WriteLine("Excel document created successfully.");
+                        break;
+                    case "7":
+                        return;
                     default:
                         Console.WriteLine("Invalid option. Please try again.");
                         break;

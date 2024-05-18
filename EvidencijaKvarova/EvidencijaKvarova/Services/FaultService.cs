@@ -1,7 +1,9 @@
 ﻿using EvidencijaKvarova.Interfaces;
 using EvidencijaKvarova.Models;
+using OfficeOpenXml;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -103,6 +105,42 @@ namespace EvidencijaKvarova.Services
         {
             return _faultRepository.GetAllFaults();
         }
+        public void CreateFaultsExcelDocument(string outputPath)
+        {
+            ExcelPackage.LicenseContext = LicenseContext.NonCommercial; // Set the license context
+
+            var faults = GetAllFaults();
+            var elements = _elementRepository.GetAllElements();
+
+            using (ExcelPackage package = new ExcelPackage())
+            {
+                ExcelWorksheet worksheet = package.Workbook.Worksheets.Add("Faults");
+
+                // Add headers
+                worksheet.Cells[1, 1].Value = "ID kvara";
+                worksheet.Cells[1, 2].Value = "Naziv elementa";
+                worksheet.Cells[1, 3].Value = "Naponski nivo";
+                worksheet.Cells[1, 4].Value = "Spisak izvršenih akcija";
+
+                // Add data
+                for (int i = 0; i < faults.Count; i++)
+                {
+                    var fault = faults[i];
+                    var element = elements.FirstOrDefault(e => e.Id == fault.ElementId);
+
+                    worksheet.Cells[i + 2, 1].Value = fault.Id;
+                    worksheet.Cells[i + 2, 2].Value = element?.Name;
+                    worksheet.Cells[i + 2, 3].Value = element?.VoltageLevel;
+
+                    var actions = string.Join(", ", fault.Actions.Select(a => $"{a.Time}: {a.Description}"));
+                    worksheet.Cells[i + 2, 4].Value = actions;
+                }
+
+                FileInfo fileInfo = new FileInfo(outputPath);
+                package.SaveAs(fileInfo);
+            }
+        }
+
 
     }
 }
