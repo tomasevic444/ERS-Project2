@@ -27,7 +27,7 @@ namespace EvidencijaKvarova.Services
         {
             fault.Id = GenerateFaultId(fault);
             fault.CreationTime = DateTime.Now;
-            fault.Status = "Nepotvrđen";
+            fault.Status = "Nepotvrdjen";
             _faultRepository.AddFault(fault);
         }
 

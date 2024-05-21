@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<Configuration>
-	<PriorityIncrementForRepair>1</PriorityIncrementForRepair>
-	<PriorityIncrementForTesting>0.5</PriorityIncrementForTesting>
-	<PriorityIncrementForHighVoltage>1</PriorityIncrementForHighVoltage>
-</Configuration>
