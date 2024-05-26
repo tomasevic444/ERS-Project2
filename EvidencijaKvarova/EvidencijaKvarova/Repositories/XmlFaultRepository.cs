@@ -50,15 +50,24 @@ namespace EvidencijaKvarova.Repositories
 
         public List<Fault> GetAllFaults()
         {
-            if (!File.Exists(_filePath))
+            try
             {
-                return new List<Fault>();
-            }
+                if (!File.Exists(_filePath))
+                {
+                    return new List<Fault>();
+                }
 
-            var serializer = new XmlSerializer(typeof(List<Fault>));
-            using (var stream = new FileStream(_filePath, FileMode.Open))
+                var serializer = new XmlSerializer(typeof(List<Fault>));
+                using (var stream = new FileStream(_filePath, FileMode.Open))
+                {
+                    return (List<Fault>)serializer.Deserialize(stream);
+                }
+            }
+            catch (Exception ex)
             {
-                return (List<Fault>)serializer.Deserialize(stream);
+                // Handle the exception (log it, rethrow it, etc.)
+                Console.WriteLine($"Failed to load faults: {ex.Message}");
+                return new List<Fault>();
             }
         }
 

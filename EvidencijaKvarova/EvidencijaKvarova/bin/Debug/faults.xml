@@ -18,4 +18,18 @@
       </Action>
     </Actions>
   </Fault>
+  <Fault>
+    <Id>20240527011518_1</Id>
+    <ShortDescription>Nes</ShortDescription>
+    <DetailedDescription>Nesto</DetailedDescription>
+    <ElementId>4</ElementId>
+    <CreationTime>2024-05-27T01:15:18.1250679+02:00</CreationTime>
+    <Status>Nepotvrdjen</Status>
+    <Actions>
+      <Action>
+        <Time>2024-05-27T01:15:18.081873+02:00</Time>
+        <Description>Initial inspection</Description>
+      </Action>
+    </Actions>
+  </Fault>
 </ArrayOfFault>

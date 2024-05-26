@@ -61,3 +61,43 @@ C:\Users\SRDJAN\Desktop\faks\Treca godina\Elementi razvoja softvera\Projekat 2\E
 C:\Users\SRDJAN\Desktop\faks\Treca godina\Elementi razvoja softvera\Projekat 2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\nunit.framework.xml
 C:\Users\SRDJAN\Desktop\faks\Treca godina\Elementi razvoja softvera\Projekat 2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\nunit.framework.legacy.xml
 C:\Users\SRDJAN\Desktop\faks\Treca godina\Elementi razvoja softvera\Projekat 2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\nunit.engine.dll
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\nunit.engine.api.dll
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\nunit.engine.core.dll
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\testcentric.engine.metadata.dll
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\EvidencijaKvarova.exe.config
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\EvidencijaKvarova.exe
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\EvidencijaKvarova.pdb
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\Castle.Core.dll
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\EPPlus.dll
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\Moq.dll
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\nunit.framework.dll
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\nunit.framework.legacy.dll
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\System.Buffers.dll
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\System.Memory.dll
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\Castle.Core.xml
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\EPPlus.xml
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\Moq.xml
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\nunit.framework.xml
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\nunit.framework.legacy.xml
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\System.Buffers.xml
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\System.Memory.xml
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\obj\Debug\EvidencijaKvarova.csproj.AssemblyReference.cache
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\obj\Debug\EvidencijaKvarova.csproj.CoreCompileInputs.cache
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\obj\Debug\EvidencijaKvarova.csproj.CopyComplete
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\obj\Debug\EvidencijaKvarova.exe
+C:\Users\Tomas\Source\Repos\ERS-Project2\EvidencijaKvarova\EvidencijaKvarova\obj\Debug\EvidencijaKvarova.pdb

@@ -133,23 +133,53 @@ namespace EvidencijaKvarova.Services
 
         private void RetrieveFaults()
         {
-            _userInterface.ShowMessage("Enter start date (yyyy-MM-dd): ");
-            DateTime fromDate = DateTime.Parse(_userInterface.GetUserInput());
-            _userInterface.ShowMessage("Enter end date (yyyy-MM-dd): ");
-            DateTime toDate = DateTime.Parse(_userInterface.GetUserInput());
-
-            var faults = _faultService.GetFaults(fromDate, toDate);
-            if (faults.Count == 0)
+            try
             {
-                _userInterface.ShowMessage("No faults found in the specified date range.\n");
-            }
-            else
-            {
-                foreach (var fault in faults)
+                _userInterface.ShowMessage("Enter start date (yyyy-MM-dd): ");
+                DateTime fromDate;
+                if (!DateTime.TryParse(_userInterface.GetUserInput(), out fromDate))
                 {
-                    _userInterface.ShowMessage($"Fault ID: {fault.Id}, Short description: {fault.ShortDescription},Description: {fault.DetailedDescription}, Status: {fault.Status}, Created: {fault.CreationTime}");
+                    _userInterface.ShowMessage("Invalid start date format. Please enter date in yyyy-MM-dd format.\n");
+                    return; // Exit the method if parsing fails
                 }
-                _userInterface.ShowMessage("");
+
+                _userInterface.ShowMessage("Enter end date (yyyy-MM-dd): ");
+                DateTime toDate;
+                if (!DateTime.TryParse(_userInterface.GetUserInput(), out toDate))
+                {
+                    _userInterface.ShowMessage("Invalid end date format. Please enter date in yyyy-MM-dd format.\n");
+                    return; // Exit the method if parsing fails
+                }
+
+                if (toDate < fromDate)
+                {
+                    _userInterface.ShowMessage("End date cannot be before start date.\n");
+                    return; // Exit the method if end date is before start date
+                }
+
+                var faults = _faultService.GetFaults(fromDate, toDate);
+                if (faults == null)
+                {
+                    _userInterface.ShowMessage("Error occurred while retrieving faults.\n");
+                    return; // Exit the method if fault retrieval fails
+                }
+
+                if (faults.Count == 0)
+                {
+                    _userInterface.ShowMessage("No faults found in the specified date range.\n");
+                }
+                else
+                {
+                    foreach (var fault in faults)
+                    {
+                        _userInterface.ShowMessage($"Fault ID: {fault.Id}, Short description: {fault.ShortDescription}, Description: {fault.DetailedDescription}, Status: {fault.Status}, Created: {fault.CreationTime}");
+                    }
+                    _userInterface.ShowMessage("");
+                }
+            }
+            catch (Exception ex)
+            {
+                _userInterface.ShowMessage($"An error occurred: {ex.Message}\n");
             }
         }
 
