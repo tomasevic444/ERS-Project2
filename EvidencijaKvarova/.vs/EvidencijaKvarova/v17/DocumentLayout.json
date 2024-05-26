@@ -1,0 +1,278 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F74DF2C8-61B8-4F1B-A627-3E27F6508C59}|EvidencijaKvarova\\EvidencijaKvarova.csproj|c:\\users\\srdjan\\desktop\\faks\\treca godina\\elementi razvoja softvera\\projekat 2\\evidencijakvarova\\evidencijakvarova\\config\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74DF2C8-61B8-4F1B-A627-3E27F6508C59}|EvidencijaKvarova\\EvidencijaKvarova.csproj|solutionrelative:evidencijakvarova\\config\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F74DF2C8-61B8-4F1B-A627-3E27F6508C59}|EvidencijaKvarova\\EvidencijaKvarova.csproj|C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\evidencijakvarova\\config\\configurationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74DF2C8-61B8-4F1B-A627-3E27F6508C59}|EvidencijaKvarova\\EvidencijaKvarova.csproj|solutionrelative:evidencijakvarova\\config\\configurationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50F9B53-833D-4F72-8F0F-488AAD5DBDF6}|EvidencijaKvarova.Tests\\EvidencijaKvarova.Tests.csproj|c:\\users\\srdjan\\desktop\\faks\\treca godina\\elementi razvoja softvera\\projekat 2\\evidencijakvarova\\evidencijakvarova.tests\\tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50F9B53-833D-4F72-8F0F-488AAD5DBDF6}|EvidencijaKvarova.Tests\\EvidencijaKvarova.Tests.csproj|solutionrelative:evidencijakvarova.tests\\tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F74DF2C8-61B8-4F1B-A627-3E27F6508C59}|EvidencijaKvarova\\EvidencijaKvarova.csproj|c:\\users\\srdjan\\desktop\\faks\\treca godina\\elementi razvoja softvera\\projekat 2\\evidencijakvarova\\evidencijakvarova\\services\\menuservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74DF2C8-61B8-4F1B-A627-3E27F6508C59}|EvidencijaKvarova\\EvidencijaKvarova.csproj|solutionrelative:evidencijakvarova\\services\\menuservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F74DF2C8-61B8-4F1B-A627-3E27F6508C59}|EvidencijaKvarova\\EvidencijaKvarova.csproj|C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\evidencijakvarova\\services\\faultservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74DF2C8-61B8-4F1B-A627-3E27F6508C59}|EvidencijaKvarova\\EvidencijaKvarova.csproj|solutionrelative:evidencijakvarova\\services\\faultservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F74DF2C8-61B8-4F1B-A627-3E27F6508C59}|EvidencijaKvarova\\EvidencijaKvarova.csproj|C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\evidencijakvarova\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74DF2C8-61B8-4F1B-A627-3E27F6508C59}|EvidencijaKvarova\\EvidencijaKvarova.csproj|solutionrelative:evidencijakvarova\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F74DF2C8-61B8-4F1B-A627-3E27F6508C59}|EvidencijaKvarova\\EvidencijaKvarova.csproj|C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\evidencijakvarova\\repositories\\xmlfaultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74DF2C8-61B8-4F1B-A627-3E27F6508C59}|EvidencijaKvarova\\EvidencijaKvarova.csproj|solutionrelative:evidencijakvarova\\repositories\\xmlfaultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F74DF2C8-61B8-4F1B-A627-3E27F6508C59}|EvidencijaKvarova\\EvidencijaKvarova.csproj|C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\evidencijakvarova\\repositories\\xmlelementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74DF2C8-61B8-4F1B-A627-3E27F6508C59}|EvidencijaKvarova\\EvidencijaKvarova.csproj|solutionrelative:evidencijakvarova\\repositories\\xmlelementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F74DF2C8-61B8-4F1B-A627-3E27F6508C59}|EvidencijaKvarova\\EvidencijaKvarova.csproj|C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\evidencijakvarova\\interfaces\\iconfigurationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74DF2C8-61B8-4F1B-A627-3E27F6508C59}|EvidencijaKvarova\\EvidencijaKvarova.csproj|solutionrelative:evidencijakvarova\\interfaces\\iconfigurationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F74DF2C8-61B8-4F1B-A627-3E27F6508C59}|EvidencijaKvarova\\EvidencijaKvarova.csproj|C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\evidencijakvarova\\models\\electricalelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74DF2C8-61B8-4F1B-A627-3E27F6508C59}|EvidencijaKvarova\\EvidencijaKvarova.csproj|solutionrelative:evidencijakvarova\\models\\electricalelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F74DF2C8-61B8-4F1B-A627-3E27F6508C59}|EvidencijaKvarova\\EvidencijaKvarova.csproj|C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\evidencijakvarova\\models\\action.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74DF2C8-61B8-4F1B-A627-3E27F6508C59}|EvidencijaKvarova\\EvidencijaKvarova.csproj|solutionrelative:evidencijakvarova\\models\\action.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F74DF2C8-61B8-4F1B-A627-3E27F6508C59}|EvidencijaKvarova\\EvidencijaKvarova.csproj|C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\evidencijakvarova\\interfaces\\iuserinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74DF2C8-61B8-4F1B-A627-3E27F6508C59}|EvidencijaKvarova\\EvidencijaKvarova.csproj|solutionrelative:evidencijakvarova\\interfaces\\iuserinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F74DF2C8-61B8-4F1B-A627-3E27F6508C59}|EvidencijaKvarova\\EvidencijaKvarova.csproj|C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\evidencijakvarova\\interfaces\\ifaultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74DF2C8-61B8-4F1B-A627-3E27F6508C59}|EvidencijaKvarova\\EvidencijaKvarova.csproj|solutionrelative:evidencijakvarova\\interfaces\\ifaultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F74DF2C8-61B8-4F1B-A627-3E27F6508C59}|EvidencijaKvarova\\EvidencijaKvarova.csproj|C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\evidencijakvarova\\input\\consoleuserinterface .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74DF2C8-61B8-4F1B-A627-3E27F6508C59}|EvidencijaKvarova\\EvidencijaKvarova.csproj|solutionrelative:evidencijakvarova\\input\\consoleuserinterface .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50F9B53-833D-4F72-8F0F-488AAD5DBDF6}|EvidencijaKvarova.Tests\\EvidencijaKvarova.Tests.csproj|C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\evidencijakvarova.tests\\evidencijakvarovatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50F9B53-833D-4F72-8F0F-488AAD5DBDF6}|EvidencijaKvarova.Tests\\EvidencijaKvarova.Tests.csproj|solutionrelative:evidencijakvarova.tests\\evidencijakvarovatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 190,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tests.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\EvidencijaKvarova.Tests\\Tests.cs",
+              "RelativeDocumentMoniker": "EvidencijaKvarova.Tests\\Tests.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\EvidencijaKvarova.Tests\\Tests.cs",
+              "RelativeToolTip": "EvidencijaKvarova.Tests\\Tests.cs",
+              "ViewState": "AQIAAIwAAAAAAAAAAAAqwKkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T18:49:24.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EvidencijaKvarovaTests.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\EvidencijaKvarova.Tests\\EvidencijaKvarovaTests.cs",
+              "RelativeDocumentMoniker": "EvidencijaKvarova.Tests\\EvidencijaKvarovaTests.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\EvidencijaKvarova.Tests\\EvidencijaKvarovaTests.cs",
+              "RelativeToolTip": "EvidencijaKvarova.Tests\\EvidencijaKvarovaTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T18:20:03.84Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 210,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\EvidencijaKvarova\\Config\\Configuration.cs",
+              "RelativeDocumentMoniker": "EvidencijaKvarova\\Config\\Configuration.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\EvidencijaKvarova\\Config\\Configuration.cs",
+              "RelativeToolTip": "EvidencijaKvarova\\Config\\Configuration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T21:48:29.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuService .cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\EvidencijaKvarova\\Services\\MenuService .cs",
+              "RelativeDocumentMoniker": "EvidencijaKvarova\\Services\\MenuService .cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\EvidencijaKvarova\\Services\\MenuService .cs",
+              "RelativeToolTip": "EvidencijaKvarova\\Services\\MenuService .cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAA5wD4AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T18:24:03.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "XmlElementRepository.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\EvidencijaKvarova\\Repositories\\XmlElementRepository.cs",
+              "RelativeDocumentMoniker": "EvidencijaKvarova\\Repositories\\XmlElementRepository.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\EvidencijaKvarova\\Repositories\\XmlElementRepository.cs",
+              "RelativeToolTip": "EvidencijaKvarova\\Repositories\\XmlElementRepository.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAuwEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T18:43:50.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConfigurationService.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\EvidencijaKvarova\\Config\\ConfigurationService.cs",
+              "RelativeDocumentMoniker": "EvidencijaKvarova\\Config\\ConfigurationService.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\EvidencijaKvarova\\Config\\ConfigurationService.cs",
+              "RelativeToolTip": "EvidencijaKvarova\\Config\\ConfigurationService.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAwwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T17:35:52.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "XmlFaultRepository.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\EvidencijaKvarova\\Repositories\\XmlFaultRepository.cs",
+              "RelativeDocumentMoniker": "EvidencijaKvarova\\Repositories\\XmlFaultRepository.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\EvidencijaKvarova\\Repositories\\XmlFaultRepository.cs",
+              "RelativeToolTip": "EvidencijaKvarova\\Repositories\\XmlFaultRepository.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAwE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T18:57:07.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FaultService.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\EvidencijaKvarova\\Services\\FaultService.cs",
+              "RelativeDocumentMoniker": "EvidencijaKvarova\\Services\\FaultService.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\EvidencijaKvarova\\Services\\FaultService.cs",
+              "RelativeToolTip": "EvidencijaKvarova\\Services\\FaultService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T18:08:22.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\EvidencijaKvarova\\Program.cs",
+              "RelativeDocumentMoniker": "EvidencijaKvarova\\Program.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\EvidencijaKvarova\\Program.cs",
+              "RelativeToolTip": "EvidencijaKvarova\\Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwCoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T19:33:41.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IConfigurationService.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\EvidencijaKvarova\\Interfaces\\IConfigurationService.cs",
+              "RelativeDocumentMoniker": "EvidencijaKvarova\\Interfaces\\IConfigurationService.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\EvidencijaKvarova\\Interfaces\\IConfigurationService.cs",
+              "RelativeToolTip": "EvidencijaKvarova\\Interfaces\\IConfigurationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T19:32:32.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ElectricalElement.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\EvidencijaKvarova\\Models\\ElectricalElement.cs",
+              "RelativeDocumentMoniker": "EvidencijaKvarova\\Models\\ElectricalElement.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\EvidencijaKvarova\\Models\\ElectricalElement.cs",
+              "RelativeToolTip": "EvidencijaKvarova\\Models\\ElectricalElement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T19:33:24.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Action.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\EvidencijaKvarova\\Models\\Action.cs",
+              "RelativeDocumentMoniker": "EvidencijaKvarova\\Models\\Action.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\EvidencijaKvarova\\Models\\Action.cs",
+              "RelativeToolTip": "EvidencijaKvarova\\Models\\Action.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T19:33:22.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUserInterface.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\EvidencijaKvarova\\Interfaces\\IUserInterface.cs",
+              "RelativeDocumentMoniker": "EvidencijaKvarova\\Interfaces\\IUserInterface.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\EvidencijaKvarova\\Interfaces\\IUserInterface.cs",
+              "RelativeToolTip": "EvidencijaKvarova\\Interfaces\\IUserInterface.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T19:32:39.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IFaultRepository.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\EvidencijaKvarova\\Interfaces\\IFaultRepository.cs",
+              "RelativeDocumentMoniker": "EvidencijaKvarova\\Interfaces\\IFaultRepository.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\EvidencijaKvarova\\Interfaces\\IFaultRepository.cs",
+              "RelativeToolTip": "EvidencijaKvarova\\Interfaces\\IFaultRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T18:56:55.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ConsoleUserInterface .cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\EvidencijaKvarova\\Input\\ConsoleUserInterface .cs",
+              "RelativeDocumentMoniker": "EvidencijaKvarova\\Input\\ConsoleUserInterface .cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\Desktop\\faks\\Treca godina\\Elementi razvoja softvera\\Projekat 2\\EvidencijaKvarova\\EvidencijaKvarova\\Input\\ConsoleUserInterface .cs",
+              "RelativeToolTip": "EvidencijaKvarova\\Input\\ConsoleUserInterface .cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAmwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T19:32:47.142Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

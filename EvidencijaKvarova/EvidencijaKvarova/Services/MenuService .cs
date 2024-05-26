@@ -58,7 +58,7 @@ namespace EvidencijaKvarova.Services
             }
         }
 
-        private void AddNewFault()
+        public void AddNewFault()
         {
             ListAllElements();
 

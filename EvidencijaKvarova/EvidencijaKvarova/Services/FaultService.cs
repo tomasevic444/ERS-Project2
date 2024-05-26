@@ -25,7 +25,7 @@ namespace EvidencijaKvarova.Services
 
         public void CreateFault(Fault fault)
         {
-            fault.Id = GenerateFaultId(fault);
+            fault.Id = GenerateFaultId();
             fault.CreationTime = DateTime.Now;
             fault.Status = "Nepotvrdjen";
             _faultRepository.AddFault(fault);
@@ -74,7 +74,7 @@ namespace EvidencijaKvarova.Services
             return priority;
         }
 
-        private string GenerateFaultId(Fault fault)
+        private string GenerateFaultId()
         {
             DateTime now = DateTime.Now;
             int dailyCount = GetDailyFaultCount(now) + 1;
@@ -89,18 +89,6 @@ namespace EvidencijaKvarova.Services
             return faultsToday.Count;
         }
 
-        public void AddActionToFault(string faultId, EvidencijaKvarova.Models.Action action)
-        {
-            var fault = _faultRepository.GetFaultById(faultId);
-            if (fault == null)
-            {
-                throw new Exception("Fault not found.");
-            }
-
-            fault.Actions.Add(action);
-            fault.Status = "U popravci"; // Update status to "U popravci"
-            _faultRepository.UpdateFault(fault);
-        }
         public List<Fault> GetAllFaults()
         {
             return _faultRepository.GetAllFaults();
@@ -136,8 +124,15 @@ namespace EvidencijaKvarova.Services
                     worksheet.Cells[i + 2, 4].Value = actions;
                 }
 
-                FileInfo fileInfo = new FileInfo(outputPath);
-                package.SaveAs(fileInfo);
+                try
+                {
+                    FileInfo fileInfo = new FileInfo(outputPath);
+                    package.SaveAs(fileInfo);
+                }
+                catch
+                {
+                    throw new Exception("Error while saving the file " + outputPath);
+                }
             }
         }
 

@@ -43,13 +43,5 @@ namespace EvidencijaKvarova.Config
         }
     }
 
-    [XmlRoot("Configuration")]
-    public class Configuration
-    {
-        public double PriorityIncrementForRepair { get; set; }
-        public double PriorityIncrementForTesting { get; set; }
-        public double PriorityIncrementForHighVoltage { get; set; }
-    }
-
 
 }
