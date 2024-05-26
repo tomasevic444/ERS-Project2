@@ -8,9 +8,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace EvidencijaKvarova.Services
 {
-    public class FaultService
+    public class FaultService : IFaultService
     {
         private readonly IFaultRepository _faultRepository;
         private readonly IElementRepository _elementRepository;

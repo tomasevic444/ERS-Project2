@@ -101,6 +101,7 @@
   <ItemGroup>
     <Compile Include="Config\Configuration.cs" />
     <Compile Include="Config\ConfigurationService.cs" />
+    <Compile Include="Interfaces\IFaultService.cs" />
     <Compile Include="Input\ConsoleUserInterface .cs" />
     <Compile Include="Interfaces\IConfigurationService.cs" />
     <Compile Include="Interfaces\IElementRepository.cs" />
